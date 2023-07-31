@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python3-poetry"
+version = "0.1.0"
+description = "base image for python3 projects"
+authors = ["cah-jonathan-cachat01 <jonathan.cachat01@cardinalhealth.com>"]
+readme = "README.md"
+packages = [{include = "python3_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
