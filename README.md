@@ -2,7 +2,6 @@
 
 completely contained, portable docker container templates for starting fresh each project
 
-
 - **cloud-master:** py311, AWS, GCP 
 
 - **gcp-dev-master:** py311, GCP 
